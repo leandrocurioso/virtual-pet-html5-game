@@ -1,6 +1,6 @@
-# Phaser3 Starting Point
+# Virtual Pet HTML5 Game
 
-A starting point structure for Phaser 3 using webpack and babel for transpilation.
+A Virtual Pet HTML5 Game.
 
 ### Structure
 The code must be written is ES6 then Webpack will automatically transpile it to ES5 to ensure browser compatibility.
