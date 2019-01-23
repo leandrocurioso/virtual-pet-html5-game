@@ -1,4 +1,7 @@
 import Phaser from "phaser";
+import { BootScene } from "../scene/boot.scene";
+import { LoadingScene } from "../scene/loading.scene";
+import { HomeScene } from "../scene/home.scene";
 import { MainScene } from "../scene/main.scene";
 
 export default {
@@ -8,6 +11,9 @@ export default {
     title: "Virtual Pet",
     parent: "game",
     scene: [
+      BootScene,
+      LoadingScene,
+      HomeScene,
       MainScene
     ],
     pixelArt: false,
